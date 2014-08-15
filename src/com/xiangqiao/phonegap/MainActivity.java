@@ -13,7 +13,7 @@ public class MainActivity extends DroidGap {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		super.loadUrl("file:///android_asset/page/index.html");
-		
+		//在javascript中调用java代码  测试
 		this.appView.addJavascriptInterface(new AA(this), "isa");
 		
 	}

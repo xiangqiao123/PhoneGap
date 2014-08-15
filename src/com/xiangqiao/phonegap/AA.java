@@ -4,6 +4,7 @@ import org.apache.cordova.DroidGap;
 
 import android.widget.Toast;
 
+
 public class AA {
 
 	DroidGap d;
